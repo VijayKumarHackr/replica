@@ -8,7 +8,7 @@ function Cylinder(radius, length, radiusSegments, lengthSegments, material) {
         if(typeof(radius) == 'undefined') radius = 15;
         if(typeof(length) == 'undefined') length = 200;
         if(typeof(radiusSegments) == 'undefined') radiusSegments = 10;
-        if(typeof(lengthSegments) == 'undefined') lengthSegments = 20;
+        if(typeof(lengthSegments) == 'undefined') lengthSegments = 200;
         
         this.radius = radius;
         this.length = length;
